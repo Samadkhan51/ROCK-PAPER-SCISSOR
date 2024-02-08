@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">   -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <h1>Rock Paper Scissors</h1>
+        </div>
+        <div id="option">
+            <div id="img">
+                <button id="choice" value="rock"><img src="./images/rock.jpg" alt="Rock" srcset=""></div></button>
+            <div id="img">
+                <button id="choice" value="paper"><img src="./images/paper.jpg" alt="Paper" srcset=""></div></button>
+            <div id="img">
+                <button id="choice" value="scissors"><img src="./images/scissor.jpg" alt="Scissors" srcset=""></div></button>
+        </div>
+        <div id="score">
+            <div id="ply">
+                <h1 id="user-Score">0</h1>
+                <h3>You</h3>
+            </div>
+            <div id="ply">
+                <h1 id="comp-Score">0</h1>
+                <h3>Computer</h3>
+            </div>
+        </div>
+
+        <div id="sub-main">
+           <div id="display">
+            <h3 id="disp">
+                play you move
+            </h3>
+           </div>
+        </div>
+        <button id="reset">Reset</button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
